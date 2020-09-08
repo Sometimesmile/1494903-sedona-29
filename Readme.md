@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Ермакова](https://up.htmlacademy.ru/htmlcss/29/user/1494903).
-* Наставник: [Евгений Алипкин](https://htmlacademy.ru/profile/ealipkin).
+* Наставник: `Неизвестно`.
 
 ---
 
