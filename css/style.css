@@ -1,0 +1,135 @@
+:root {
+    --white: #ffffff;
+    --transparent-white: rgba(255, 255, 255, 0.3);
+    --black: #000000;
+    --grey: #f2f2f2;
+    --grey-1: #eeeeee;
+    --grey-2: #a9a9a9; 
+    --grey-3: #333333;
+    --grey-4: #888888;
+    --blue: #81b3d2;    
+    --brown: #766357;
+    }
+    
+  .body {
+    font-family: PT Sans, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    background-color: var(--white);
+  }
+
+  .page-frame {
+    background-color: var(--grey-4);
+  }
+
+  .site-navigation {
+    font-weight: bold;
+    line-height: 26px;
+    list-style: none;
+  }
+
+  .main-content-headline {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .text {
+    line-height: 26px;
+    color: #333333;
+  }
+
+  .text-white {
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFFFFF;
+    background-color: var(--blue);
+  }
+
+  .text-white-number {
+    color: #FFFFFF; 
+  }
+
+  .text-white-about {
+    color: #FFFFFF;
+  }
+  
+  .reasons {
+    background-color: var(--grey-1);
+  }
+
+  .text-black {
+    font-weight: bold;
+    font-size: 21px;
+  }
+  
+  .text-black-number {
+    color: #333333;
+  }
+  
+  .text-black-about {
+    color: #333333;
+  }
+
+  .booking {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+  }
+
+  .submit {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background-color: var(--blue);
+  }
+
+  .submit-header {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF; 
+    background-color: var(--brown);
+  }
+
+  .variables {
+    font-weight: bold;
+    line-height: 26px;
+  }
+
+  .data {
+    font-weight: bold;
+    line-height: 26px;
+    background-color: var(--grey);
+  }
+
+   .btn plus-btn .btn minus-btn {
+       background-color: var(--grey-2);
+   }
+
+  .page-footer main-footer{
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .contact {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .social-button {
+    list-style: none;
+    background-color: var(--blue);
+  }
+
+  .htmlacademy-blok {
+    line-height: 26px;
+  }
