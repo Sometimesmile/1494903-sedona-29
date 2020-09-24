@@ -4,54 +4,60 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Отели-Седона</title>
-  <base href="https://htmlacademy-htmlcss.github.io/1494903-sedona-29/1/">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700& апdisplay=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header class="main-header">
+    <nav class="main-navigation">
       <ul class="site-navigation">
-        <li><a href="">Информация</a></li>
-        <li><a href="">Фото и видео</a></li>
-        <li><a href="">Карта штата</a></li>
-        <li><a href="hotels.html">Гостиницы</a></li>
+        <li><a href="#" class="site-navigation-link">Информация</a></li>
+        <li><a href="#" class="site-navigation-link">Фото и видео</a></li>
+        <li><a href="#" class="site-navigation-link">Карта штата</a></li>
+        <li><a href="hotels.html" class="site-navigation-link">Гостиницы</a></li>
       </ul>
       <a class="main-header-logo">
-        <img src="" width="138" height="70" alt="Логотип сайта городка Седона">
+        <img src="#" width="138" height="70" alt="Логотип сайта городка Седона">
       </a>
     </nav>
   </header>
+
   <main>
     <form>
       <fieldset>
-        <p>Инфраструктура:</p>
-        <input type="checkbox"> Бассейн;<br>
-        <input type="checkbox"> Парковка;<br>
-        <input type="checkbox"> WI-FI.
+        <legend class="features">Инфраструктура:</legend>
+        <input type="checkbox" class="text text-white"> Бассейн
+        <input type="checkbox" class="text text-white"> Парковка
+        <input type="checkbox" class="text text-white"> wi-fi
       </fieldset>
       <fieldset>
-        <p>Тип жилья:</p>
-        <input type="checkbox"> Гостиница;<br>
-        <input type="checkbox"> Мотель;<br>
-        <input type="checkbox"> Апартаменты.
+        <legend class="features">Тип жилья:</legend>
+        <input type="checkbox" class="text text-white"> Гостиница
+        <input type="checkbox" class="text text-white"> Мотель
+        <input type="checkbox" class="text text-white"> Апартаменты
       </fieldset>
-      <p>Стоимость в сутки (р):<br>
-        <input>
-        <input>
+      <p class="features">Стоимость в сутки(р):
+        <input type="checkbox" class="text text-white"> 0
+        <input type="checkbox" class="text text-white"> 3000
       </p>
-      <button type="submit">Показать</button>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="3000" class="slider">
+      </div>
+      <button type="submit" class="text text-white">Показать</button>
     </form>
-    <p><b>Найдено:3</b></p>
-    <p>Сортировка:</p>
+    <h1 class="main-content-headline">Найдено:3</h1>
+    <p class="sort-text">Сортировка:</p>
     <ul>
       <li>
-        <a href="">По цене</a>
+        <a class="sort-text-item" href="">По цене</a>
       </li>
       <li>
-        <a href="">По типу</a>
+        <a class="sort-text-item" href="">По типу</a>
       </li>
       <li>
-        <a href="">По рейтингу</a>
+        <a class="sort-text-item" href="">По рейтингу</a>
       </li>
     </ul>
 
@@ -71,23 +77,23 @@
         </a>
       </li>
     </ul>
-    <ul>
+    <ul class="text">
       <li>
         <a href="">
           <p>
             <img src="" width="135" height="90" alt="Amara Resort & Spa">
           </p>
+          <h2 class="hotel-items">Amara Resort & Spa</h2>
         </a>
-        <h1>Amara Resort & Spa</h1>
-        <p>
+        <p class="text">
           Гостиница
-          <button type="button">Подробнее</button>
+          <button class="text-white" type="button">Подробнее</button>
         </p>
-        <p>
+        <p class="text">
           от 4000 р
-          <button type="button">Забронировать</button>
+          <button class="text-white brown-backgrownd" type="button">Забронировать</button>
         </p>
-        <p>
+        <p class="text-grey">
           Рейтинг:8,5
         </p>
       </li>
@@ -96,17 +102,17 @@
           <p>
             <img src="" width="135" height="90" alt="Desert Quail Inn">
           </p>
-          <h2>Desert Quail Inn</h2>
+          <h2 class="hotel-items">Desert Quail Inn</h2>
         </a>
-        <p>
+        <p class="text">
           Мотель
-          <button type="button">Подробнее</button>
+          <button class="text-white" type="button">Подробнее</button>
         </p>
-        <p>
+        <p class="text">
           от 3000 р
-          <button type="button">Забронировать</button>
+          <button class="text-white brown-backgrownd" type="button">Забронировать</button>
         </p>
-        <p>
+        <p class="text-grey">
           Рейтинг:8,9
         </p>
       </li>
@@ -115,35 +121,45 @@
           <p>
             <img src="" width="135" height="90" alt="Villas at Poco Diablo">
           </p>
-          <h3>Villas at Poco Diablo</h3>
+          <h2 class="hotel-items">Villas at Poco Diablo</h2>
         </a>
-        <p>
+        <p class="text">
           Апартаменты
-          <button type="button">Подробнее</button>
+          <button class="text-white" type="button">Подробнее</button>
         </p>
-        <p>
+        <p class="text">
           от 2000 р
-          <button type="button">Забронировать</button>
+          <button class="text-white brown-backgrownd" type="button">Забронировать</button>
         </p>
-        <p>
+        <p class="text-grey">
           Рейтинг:9,2
         </p>
       </li>
     </ul>
   </main>
-  <footer>
-    <p>#visitsedona</p>
-    <p>тел:<a href="tel:+7(495)666-01-66">tel:+7(495)666-01-66</a></p>
-    <ul>
-      <li><a href="">twitter</a></li>
-      <li><a href="">facebook</a></li>
-      <li><a href="">youtube</a></li>
+  <footer class="main-footer">
+    <div class="contacts">
+      <p class="contacts-text">#visitsedona</p>
+      <p class="contacts-text">тел:
+        <a href="tel:+7(495)666-01-66" class="contacts-link"> tel:+7(495)666-01-66</a>
+      </p>
+    </div>
+    <ul class="socials">
+      <li class="socials-item">
+        <a class="socials-link" href="#">twitter</a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="#">facebook</a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="#">youtube</a>
+      </li>
     </ul>
-    <p>
-      Website by:<a href="https://htmlacademy.ru/intensive/htmlcss">
-        <img src="" alt="Логотип HTML академии"></a>
-    </p>
+    <div class="author">
+      <span class="author">Website by:</span>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="author-link"><img src="#"
+          alt="Логотип HTML академии"></a>
+    </div>
   </footer>
-</body>
 
 </html>
