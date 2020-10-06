@@ -14,142 +14,91 @@
 
 body {
   font-family: 'PT Sans', Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  color: var(--grey-3);
+  color: var(--black);
   background-color: var(--white);
 }
 
-.text {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  text-transform: uppercase;
-  color: #333333;
-}
+/*Указала классы практически всем тегам на будущее, лишние потом удалю*/
+/*.main-header
+.main-header-logo
+.navigation*/
 
-.page-frame {
-  background-color: var(--grey-4);
+.site-navigation {
+  list-style: none;
 }
 
 .site-navigation-link {
   font-weight: bold;
   line-height: 26px;
-  list-style: none;
-}
-
-.main-content-headline {
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-}
-
-.text text-content-headline {
-  line-height: 26px;
-  color: var(--grey-3);
-}
-
-.content-title {
-  font-weight: bold;
-  font-size: 21px;
   color: var(--black);
+  text-decoration: none;
 }
 
-.content-title-white {
+/*.main-content
+.main-content-title
+.main-content-subtitle
+.advantages*/
+
+.advantages-title {
   font-weight: bold;
   font-size: 21px;
-  color: var (--white);
-  background-color: var(--blue);
 }
 
-.text-white-number {
+/*.advantages-text*/
+
+.text-white {
   color: var(--white);
 }
 
-.text text-white {
-  color: var(--white);
+.background-blue {
   background-color: var(--blue);
+  text-transform: uppercase;
 }
 
-.text-white brown-backgrownd {
-  background-color: var(--brown);
-}
-
-.reasons {
+.background-grey {
   background-color: var(--grey-1);
 }
 
-.info-block-title-black {
+.text-grey {
+  color: var(--grey-3);
+}
+
+/*.advice*/
+.advice-title {
   font-weight: bold;
   font-size: 21px;
 }
 
-.text-black-number {
-  color: var(--grey-3);
-}
+/*.advice-text
+.booking*/
 
-.info-block-text-black {
-  color: var(--grey-3);
-}
-
-.adventer-title {
-  font-weight: bold;
-  font-size: 21px;
-  list-style: none;
-}
-
-.adventer-text {
-  color: var(--grey-3);
-}
-
-.booking {
+.booking-title {
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
 }
 
-.submit-header {
+.search-form {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  color: var(--white);
-  background-color: var(--blue);
-}
-
-.submit {
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 26px;
-  color: var(--white);
   background-color: var(--brown);
 }
 
-.variables {
+.find-button {
   font-weight: bold;
+  font-size: 21px;
   line-height: 26px;
-}
-
-.data {
-  font-weight: bold;
-  line-height: 26px;
-  background-color: var(--grey);
-}
-
-.features {
-  font-weight: bold;
-  font-size: 16px;
-  color: var(--white);
+  text-transform: uppercase;
   background-color: var(--blue);
 }
 
-.main-footer {
-  background: rgba(255, 255, 255, 0.9);
-}
+/*.booking-text
+.main-footer
+.contacts*/
 
 .contacts-text {
   font-weight: bold;
@@ -157,40 +106,102 @@ body {
   line-height: 26px;
 }
 
-.socials-link {
+.contacts-link {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.socials {
   list-style: none;
+}
+
+.socials-item {
   background-color: var(--blue);
 }
 
-.author {
+/*.socials-link
+.author
+.author-link*/
+
+/*Классы для страницы Отели*/
+
+.housing-parameters {
+  background-color: var(--blue);
+}
+
+.infrastructure-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.type-of-housing-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*.infrastructure-text
+.type-of-housing-text*/
+
+.prise-slider-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.show-button {
+  text-transform: uppercase;
+
+}
+
+/*.slider
+.slider-button
+.sorting*/
+
+.sorting-title {
+  font-weight: bold;
+  font-size: 21px;
   line-height: 26px;
 }
 
-li {
-  list-style-type: none;
-}
-
-.sort-text {
+.sorting-subtitle {
   font-size: 12px;
   line-height: 18px;
 }
 
-.sort-text-item a:hover {
+.sorting-text-item {
   font-size: 12px;
   line-height: 18px;
-  background: var(--black);
-  color: var(--blue);
   opacity: 0.3;
+  list-style: none;
+}
+
+.up-and-down {
+  list-style: none;
+}
+
+.hotel-results {
+  list-style: none;
 }
 
 .hotel-items {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  color: var(--black);
 }
 
-.text-grey {
+.detail-button {
+  background-color: var(--blue);
+}
+
+.booking-button {
+  background-color: var(--brown);
+  text-transform: uppercase;
+}
+
+/*.hotel-rating*/
+.rating {
   color: var(--grey-5);
-  background-color: var(--grey);
+  background-color: #f2f2f2;
 }

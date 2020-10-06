@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>HTML Academy: Отели-Седона</title>
+  <title>HTML Academy: Седона</title>
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700& апdisplay=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -11,7 +11,7 @@
 
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
+    <nav class="navigation">
       <ul class="site-navigation">
         <li><a href="#" class="site-navigation-link">Информация</a></li>
         <li><a href="#" class="site-navigation-link">Фото и видео</a></li>
@@ -19,95 +19,86 @@
         <li><a href="hotels.html" class="site-navigation-link">Гостиницы</a></li>
       </ul>
       <a class="main-header-logo">
-        <img src="#" width="138" height="70" alt="Логотип сайта городка Седона">
+        <img a href="#" src="#" width="138" height="70" alt="Логотип сайта городка Седона">
       </a>
     </nav>
   </header>
 
   <main class="main-content">
     <img src="#" width="1200" height="509" alt="Добро пожаловать в Седону">
-    <h1 class="main-content-headline">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-    <p class="text text-content-headline">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    <h1 class="main-content-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <p class="text-grey main-content-subtitle">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
-    <div class="info-block">
-      <h2 class="content-title content-title-white info-block-title">Настоящий городок</h3>
-        <span class="text-white-number">-№1-</span>
-        <p class="text text-white info-block-text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+    <div class="advantages background-blue">
+      <h2 class="text-white advantages-title">Настоящий городок</h3>
+        <span class="text-white advantages-number">-№1-</span>
+        <p class="text-white advantages-text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+        <img src="#" width="800" height="256" alt="Настоящий городок">
     </div>
 
-    <img src="#" width="800" height="256" alt="Настоящий городок">
+    <dl class="advice">
+      <dt class="advice-title">Жильё</dt>
+      <dd class="text-grey advice-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</dd>
+      <dt class="advice-title">Еда</dt>
+      <dd class="text-grey advice-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</dd>
+      <dt class="advice-title">Сувениры</dt>
+      <dd class="text-grey advice-text">Не только китайского, но и местного производства!</dd>
+    </dl>
 
-    <ul class="advantages">
-      <li class="advantages-item">
-        <h3 class="advantages-title">Жильё</h3>
-        <p class="advantages-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-      </li>
-      <li class="advantages-item">
-        <h3 class="advantages-title">Еда</h3>
-        <p class="advantages-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-      </li>
-      <li class="advantages-item">
-        <h3 class="advantages-title">Сувениры</h3>
-        <p class="advantages-text">Не только китайского, но и местного производства!</p>
-      </li>
-    </ul>
-
-    <img src="#" width="800" height="256" alt="мост дьявола">
-
-    <div class="info-block">
-      <h2 class="content-title content-title-white info-block-title">Там есть Мост дьявола</h2>
-      <span class="text-white-number">-№2-</span>
-      <p class="text text-white info-block-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+    <div class="advantages background-blue">
+      <img src="#" width="800" height="256" alt="мост дьявола">
+      <h2 class="text-white advantages-title">Там есть Мост дьявола</h2>
+      <span class="text-white advantages-number">-№2-</span>
+      <p class="text-white advantages-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
     </div>
 
-    <section class="reasons">
-
-      <div class="info-block-black">
-        <h3 class="content-title content-title-black info-block-title-black">Небольшая площадь</h3>
-        <span class="text-black-number">-№3-</span>
-        <p class="text text-black info-block-text-black">все достопримечательности находятся очень близко</p>
+    <article class="advantages background-grey">
+      <div class="advantages">
+        <h2 class="advantages-title">Небольшая площадь</h2>
+        <span class="advantages-number text-grey">-№3-</span>
+        <p class="advantages-text text-grey">все достопримечательности находятся очень близко</p>
       </div>
 
-      <div class="info-block-black">
-        <h3 class="content-title content-title-black info-block-title-black">Красивая дорога</h3>
-        <span class="text-black-number">-№4-</span>
-        <p class="text text-black info-block-text-black">ехать в Седону из лас-вегаса совсем не скучно!</p>
+      <div class="advantages">
+        <h2 class="advantages-title">Красивая дорога</h2>
+        <span class="advantages-number text-grey">-№4-</span>
+        <p class="advantages-text text-grey">ехать в Седону из лас-вегаса совсем не скучно!</p>
       </div>
 
-      <div class="info-block-black">
-        <h3 class="content-title content-title-black info-block-title-black">Мало туристов</h3>
-        <span class="text-black-number">-№5-</span>
-        <p class="text text-black info-block-text-black">большинство едет в гранд каньон и толпится там</p>
+      <div class="advantages">
+        <h2 class="advantages-title">Мало туристов</h2>
+        <span class="advantages-number text-grey">-№5-</span>
+        <p class="advantages-text text-grey">большинство едет в гранд каньон и толпится там</p>
       </div>
-
-    </section>
+    </article>
 
     <section class="booking">
-      <h4 class="text booking-title">Заинтересовались?</h4>
-      <p class="text text-black info-block-text-black">Укажите предполагаемые даты поездки, и мы покажем вам лучшие
-        предложения гостиниц в
-        Седоне</p>
-      <! -- Здесь будет форма поиска гостиниц -->
-        <button type="submit-header">Поиск гостиниц в Седоне</button>
-        <p class="variables">
-          <label class="variables">Дата заезда:</label>
-          <input type="data" value="24 апреля 2017">
+      <h3 class="booking-title">Заинтересовались?</h3>
+      <p class="booking-text text-grey">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+        гостиниц в Седоне
+      </p>
+      <!-- Здесь будет форма поиска гостиниц-->
+      <form action="#" method="GET">
+        <label class="search-form text-white">Поиск гостиницы в Седоне</label>
+        <p>
+          <label>Дата заезда:</label>
+          <input type="date" id="date" name="date" value="24 апреля 2017">
         </p>
-        <p class="variables">
-          <label class="variables">Дата выезда:</label>
-          <input type="data" value="4 июля 2017">
+        <p>
+          <label>Дата выезда:</label>
+          <input type="date" id="date" name="date" value="2017-июля-04">
         </p>
-        <p class="variables">
-          <label class="variables">Взрослые:</label>
-          <input type="data" value="2">
-          <label class="variables">Дети:</label>
-          <input type="data" value="0">
+        <p>
+          <label>Взрослые:</label>
+          <input type="number" value="2">
+          <label>Дети:</label>
+          <input type="number" value="0">
         </p>
-        <button type="submit">Найти</button>
+        <button class="find-button text-white" type="button">Найти</button>
+      </form>
     </section>
 
     <img src="#" width="1119" height="594" alt="Карта Седоны">
-
 
   </main>
 
@@ -116,7 +107,7 @@
     <div class="contacts">
       <p class="contacts-text">#visitsedona</p>
       <p class="contacts-text">тел:
-        <a href="tel:+7(495)666-01-66" class="contacts-link"> tel:+7(495)666-01-66</a>
+        <a href="tel:+7(495)666-01-66" class="contacts-link"> +7(495)666-01-66</a>
       </p>
     </div>
 
@@ -131,7 +122,6 @@
         <a class="socials-link" href="#">youtube</a>
       </li>
     </ul>
-
 
     <div class="author">
       <span class="author">Website by:</span>
