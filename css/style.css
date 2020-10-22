@@ -29,32 +29,30 @@ body {
 /*Header*/
 
 .page-body {
+  display: grid;
   min-height: 100%;
   width: 1200px;
-  display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
+  margin: 0 auto;
 }
 
 .main-header {}
 
 .navigation {
-  display: grid;
   margin: 0;
   padding: 0;
 }
 
 .main-header-logo {
-  justify-self: center;
-
-}
-
-.main-header-bar {
-  display: grid;
-  grid-template-columns: 1fr min-content;
+  display: flex;
+  
+  justify-content: center;
 }
 
 .site-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -76,18 +74,14 @@ body {
 /*Photo-title*/
 
 .container-photo-title {
-  display: grid;
-  width: 1200px;
-  height: 509;
   margin: 0;
   padding: 0;
+  background: url('../img/background-sedona.jpg');
 }
 
 .photo {}
 
-.welcome {
-  z-index: 1;
-}
+.welcome {}
 
 /*Main-title*/
 
@@ -105,9 +99,7 @@ body {
 
 /* Box with advantages ang advises */
 
-.box {
-  display: grid;
-}
+.box {}
 
 .advantages-town {
   display: grid;
@@ -124,10 +116,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-list {
-  width: 400px;
-  height: 256px;
-}
+.advantages-list {}
 
 .text-white {
   color: var(--white);
@@ -226,7 +215,6 @@ advantages-photo {
 .main-footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 1200px;
   text-align: center;
 }
 
@@ -247,10 +235,14 @@ advantages-photo {
 }
 
 .socials {
+  
   list-style: none;
+  
 }
 
 .socials-item {
+  display: grid;
+  display: inline;
   background-color: var(--blue);
 }
 
@@ -265,16 +257,35 @@ advantages-photo {
 .author-link
 .website-by*/
 
-/*Классы для страницы Отели*/
+/*Hotels's class*/
+
+.main-content {}
 
 .housing-parameters {
   background-color: var(--blue);
+  background: url('../img/background-hotels.jpg');
 }
+
+.sorting {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.infrastructure {}
 
 .infrastructure-title {
   font-weight: bold;
   font-size: 16px;
+  display: block;
 }
+
+.infrastructure-list {
+  display: block;
+}
+
+.type-of-housing {}
 
 .type-of-housing-title {
   font-weight: bold;
@@ -282,50 +293,95 @@ advantages-photo {
 }
 
 /*.infrastructure-text
-.type-of-housing-text*/
+.type-of-housing-text
+.slider*/
 
 .prise-slider-title {
   font-weight: bold;
   font-size: 16px;
+  text-align: center;
 }
 
 .show-button {
+  color: var(--white);
   text-transform: uppercase;
 }
 
-/*.slider
-.slider-button
-.sorting*/
+.sorting-result {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
+
+.result {
+ 
+}
 
 .sorting-title {
+  float: left;
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
 }
 
 .sorting-subtitle {
+  float: left;
   font-size: 12px;
   line-height: 18px;
 }
 
 .sorting-text-item {
+  float: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   font-size: 12px;
   line-height: 18px;
   opacity: 0.3;
   list-style: none;
 }
 
+/*.sorting-text-item-price
+.sorting-text-item-type
+.sorting-text-item-rating*/
+
 .sorting-text-item :hover {
   color: #81B3D2;
 }
 
 .up-and-down {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: end;
   list-style: none;
 }
 
+.up {}
+
+.down {}
+
 .hotel-results {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
   list-style: none;
 }
+
+/*Amara*/
+
+.hotel-amara {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.amara {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  align-content: start;
+}
+
+.photo-amara {}
+
+.info-amara {}
 
 .hotel-items {
   font-weight: bold;
@@ -333,21 +389,100 @@ advantages-photo {
   line-height: 26px;
 }
 
+.amara-span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .detail-button {
+  margin: 3px;
+border: 0px;
+  color: var(--white);
   background-color: var(--blue);
 }
 
 .booking-button {
+  margin: 3px;
+  border: 0px;
+  color: var(--white);
   background-color: var(--brown);
   text-transform: uppercase;
 }
 
-/*.hotel-rating*/
+.hotel-rating {
+  
+}
+
 .rating {
   color: var(--grey-5);
   background-color: #f2f2f2;
+  
 }
 
-.stars {
+.amara-stars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+}
+
+/*Desert*/
+
+.hotel-desert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.desert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  align-content: start;
+}
+
+.photo-desert {}
+
+.info-desert {}
+
+.desert-span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.desert-stars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: end;
+  list-style: none;
+}
+
+/*Villas*/
+
+.hotel-villas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.villas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  align-content: start;
+}
+
+.photo-villas {}
+
+.info-villas {}
+
+.villas-span {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.villas-stars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
   list-style: none;
 }
